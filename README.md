@@ -25,6 +25,8 @@ Let's start by collecting relevant information for this project:
 
 #### Available public sound Datasets:
 
+The cough sounds should have the same length for training!
+
 - None found yet
 
 #### Paper List (ranked by most relevant at the top):
