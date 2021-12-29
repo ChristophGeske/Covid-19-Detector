@@ -8,10 +8,11 @@ Research over the last year showed that detecting Corona from cough sounds alone
 
 The development of a publically available Covid test using only the microphone in widly available Android and iOS phones could help reduce the impact the Omicron wave will have.
 
+Let's start by collecting relevant information for this project: 
 
-I would like to start the development process by collecting all the relevant papers and data sets we need to start working on such an app.
+## Prerequesits
 
-## Available public code projects:
+#### Available public code projects:
 * [Covid cough Classification on GitHub](https://github.com/rosikand/covid-cough-test)
   * code publicaly available (using keras, ipynb)
   * uses convolutional neural network (CNN) 
@@ -22,11 +23,11 @@ I would like to start the development process by collecting all the relevant pap
   * No transfear learning done in the beginning
   * Similar to this instrument classification project [Musical Genre Classification on GitHub](https://github.com/lelandroberts97/Musical_Genre_Classification) with an [easy to understand explaination](https://towardsdatascience.com/musical-genre-classification-with-convolutional-neural-networks-ff04f9601a74)
 
-## Available public sound Datasets:
+#### Available public sound Datasets:
 
 - None found yet
 
-## Paper List (ranked by most relevant at the top):
+#### Paper List (ranked by most relevant at the top):
 
 * [Review Paper:](https://arxiv.org/ftp/arxiv/papers/2112/2112.07285.pdf) Lella, Kranthi Kumar, and Alphonse Pja. "Automatic COVID-19 disease diagnosis using 1D convolutional neural network and augmentation with human respiratory sound based on parameters: cough, breath, and voice." AIMS Public Health 8.2 (2021): 240.
 
@@ -34,13 +35,12 @@ I would like to start the development process by collecting all the relevant pap
   * App seems not available to public
   * They use "transfer leraning" to make up for missing cough sound data
 
-## Further relevant projecs:
+#### Further relevant projecs:
 * [COVID-19 Sounds App](https://www.covid-19-sounds.org/en/) 
   * Only collects data has no Covid test functions build in
 
-## Open Questions:
+## Implementation details (Work in progress)
 
-#### Method:
-
-- Is using deep learning the right approach? 
-- Which architecture should we use? 
+1. We start with a new ANdroid Studio project. Using the "Basic Activity template", API level 23 Marshmallow (for >95% device coverage) and Java as the programming language.  
+2. Train the model with Kares (work in progress)
+3. Add the functionality of running pretrained models on android following [this guide](https://medium.com/geekculture/train-ml-model-and-build-android-application-using-tensorflow-lite-keras-6bf23d07309a) and [this github repo](https://github.com/ShuklaAnuja/Python-ML---Android-Kit)
