@@ -1,6 +1,6 @@
 # Covid-19-Cough-Rapid-Test for Android
 
-With the emergence of the Omicron variant we will soon (mid January 2022 peak in 15.01.2022) see a spike in cases including increased hospitalizations and a need for rapid antigen tests, according to the [latest models](https://youtu.be/rRIiJcqyIpY).
+With the emergence of the Omicron variant we will soon (mid January 2022 peak in 15.01.2022) see a spike in cases including increased hospitalizations and a need for rapid antigen tests, according to the [latest models](https://youtu.be/rRIiJcqyIpY). Also latest studies show that current tests are less accurate in detecting Omicron and the recommendation ist to use 2 tests instead of one which further increases demand for tests.
 
 However with a doubling of cases every 3.5 days it is hardly imaginable how demand for tests can keep up.
 
