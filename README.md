@@ -42,7 +42,7 @@ Let's start by collecting relevant information for this project:
 ## Implementation details (Work in progress)
 
 1. We start with a new ANdroid Studio project. Using the "Basic Activity template", API level 23 Marshmallow (for >95% device coverage) and Java as the programming language.  
-2. Train the model with Kares resulting in a .h5 and .tflite file
+2. Train the model with Kares resulting in a .h5 and .tflite file. See the SimpleExampleOfTrainigATesnsorflowModel.ipynb for details.
 3. Add the functionality of running pretrained models on android following [this guide](https://medium.com/geekculture/train-ml-model-and-build-android-application-using-tensorflow-lite-keras-6bf23d07309a) and [this github repo](https://github.com/ShuklaAnuja/Python-ML---Android-Kit)
 4. Created an asset folder and add the tflite file you trained with Google Colab and downloaded in the previous steps. https://stackoverflow.com/questions/18302603/where-to-place-the-assets-folder-in-android-studio
 5. ...
