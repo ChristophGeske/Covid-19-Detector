@@ -8,8 +8,6 @@ Research over the last year showed that detecting Corona from cough sounds alone
 
 The development of a publically available Covid test using only the microphone in widly available Android and iOS phones could help reduce the impact the Omicron wave will have.
 
-Let's start by collecting relevant information for this project: 
-
 ## Prerequesits
 
 #### Available public code projects:
