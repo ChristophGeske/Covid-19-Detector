@@ -67,8 +67,12 @@ A simple model (not for cough data yet) was trained and imported into an Android
 
 ## Some thought for later implementation
 
-- transfer lerning looks like a must
-- the cough sounds must be cropped to have the same length for training and detection!
-- 'selective Training' idealy we collect personalised cough data of the user before he gets covid to reduce the false positive rate of the app. Gender, age, ... or just use user recordings to classefy the user and train a better personalized model with trining data similar to the user.
-- Put disclaimers everywhere with the exact accuracy of the test, using graphics and simple clear sentences!
-- According to [Andrew Ng famous ML lecture](https://youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0) CNNs are good for image detection but RNNs are better for sounds.
+* transfer lerning looks like a must
+* the cough sounds must be cropped to have the same length for training and detection!
+* 'selective Training' idealy we collect personalised cough data of the user before he gets covid to reduce the false positive rate of the app. Gender, age, ... or just use user recordings to classefy the user and train a better personalized model with trining data similar to the user.
+* Put disclaimers everywhere with the exact accuracy of the test, using graphics and simple clear sentences!
+* According to [Andrew Ng famous ML lecture](https://youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0) 
+   * CNNs are good for image detection but RNNs are better for sounds
+   * larger network and more data are the 2 main factors for improving the network
+   * ReLU speeds up training compared to sigmoid activation function
+   * 
