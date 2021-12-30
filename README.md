@@ -26,10 +26,12 @@ A simple model (not for cough data yet) was trained and imported into an Android
 * [CNN-Audio-Classifier-with-Keras-Tensorflow](https://github.com/adanRivas/CNN-Audio-Classifier-with-Keras-Tensorflow)
   * transfear learning
   * mel spectograms
+  * Dataset available [here](https://osf.io/tmkud/files/) 
+  * [Wiki page](https://osf.io/tmkud/wiki/home/) 
 
 #### Available public sound Datasets:
 
-- None found yet
+- "CNN-Audio-Classifier-with-Keras-Tensorflow"-Project: [Dataset](https://osf.io/tmkud/files/) 
 
 #### Paper List:
 
