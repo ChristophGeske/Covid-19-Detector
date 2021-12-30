@@ -47,6 +47,8 @@ A simple model (not for cough data yet) was trained and imported into an Android
 #### Further relevant projecs:
 
 * [COVID-19 Sounds App](https://www.covid-19-sounds.org/en/) maybe as a source for more trainings data.
+  * Sounds, Spectrograms and MEL-Spectrograms avaialable
+  * MEL-Spectrograms could be used directly, reducing complexity and the steps needed for training
   
 
 ## Implementation details (Work in progress)
