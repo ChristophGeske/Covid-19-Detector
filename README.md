@@ -74,5 +74,5 @@ A simple model (not for cough data yet) was trained and imported into an Android
 * According to [Andrew Ng famous ML lecture](https://youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0) 
    * CNNs are good for image detection but RNNs are better for sounds
    * larger network and more data are the 2 main factors for improving the network
-   * ReLU speeds up training compared to sigmoid activation function
+   * ReLU speeds up training compared to sigmoid activation function, but sigmoid should be used for the last(output) layer since we only have 0 or 1 as an output
    * 
