@@ -1,5 +1,7 @@
 # Covid-19-Cough-Rapid-Test for Android
 
+## Why is this relevant?
+
 With the emergence of the Omicron variant we will soon (mid January 2022 peak in 15.01.2022) see a spike in cases including increased hospitalizations and a need for rapid antigen tests, according to the [latest models](https://youtu.be/rRIiJcqyIpY). Also latest studies show that current tests are less accurate in detecting Omicron and the recommendation ist to use 2 tests instead of one which further increases demand for tests.
 
 However with a doubling of cases every 3.5 days it is hardly imaginable how demand for tests can keep up.
@@ -8,20 +10,25 @@ Research over the last year showed that detecting Corona from cough sounds alone
 
 The development of a publically available Covid test using only the microphone in widly available Android and iOS phones could help reduce the impact the Omicron wave will have.
 
+## Current state of the project
+
+A simple model (not for cough data yet) was trained and imported into an Android app. The model used in the app is just an proof of concept and needs to be replaced with a real model able to detect cough data. The App needs to be extended to record cough sounds and put them through the model returning an positiv/negative result. 
+
 ## Prerequesits
 
 #### Available public code projects:
+
 * [Covid cough Classification on GitHub](https://github.com/rosikand/covid-cough-test)
   * uses convolutional neural network (CNN) 
   * Uses Mobile Net an image classification network to train on [ML spectograms](https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53) 
-    * Not sure why to transformed the spectrogram into a ML spectrogram since the mel scale is only relevant to adjust the sound to human hearing, which we don't need if only the computer is "hearing" and analysing the cough sound
-  * Similar to this well documented instrument classification project [Musical Genre Classification on GitHub](https://github.com/lelandroberts97/Musical_Genre_Classification) with an [easy to understand article](https://towardsdatascience.com/musical-genre-classification-with-convolutional-neural-networks-ff04f9601a74)
+    * Not sure why to transformed the spectrogram into a ML spectrogram since the mel scale is only relevant to adjust the sound to human hearing, which we don't need if only the computer is "hearing" and analysing the cough sound. So why the added complexity?
+  * A similar well documented instrument classification project named [Musical Genre Classification on GitHub](https://github.com/lelandroberts97/Musical_Genre_Classification) is available with an [easy to understand article](https://towardsdatascience.com/musical-genre-classification-with-convolutional-neural-networks-ff04f9601a74) explaining the concepts.
 
 #### Available public sound Datasets:
 
 - None found yet
 
-#### Paper List (ranked by most relevant at the top):
+#### Paper List:
 
 * [Review Paper:](https://arxiv.org/ftp/arxiv/papers/2112/2112.07285.pdf) Lella, Kranthi Kumar, and Alphonse Pja. "Automatic COVID-19 disease diagnosis using 1D convolutional neural network and augmentation with human respiratory sound based on parameters: cough, breath, and voice." AIMS Public Health 8.2 (2021): 240.
 
@@ -33,8 +40,9 @@ The development of a publically available Covid test using only the microphone i
   * Uses "transfer learning" on alzheimers dataset, showing improvements in accuracy
 
 #### Further relevant projecs:
-* [COVID-19 Sounds App](https://www.covid-19-sounds.org/en/) 
-  * Only collects data has no Covid test functions build in
+
+* [COVID-19 Sounds App](https://www.covid-19-sounds.org/en/) maybe as a source for more trainings data.
+  
 
 ## Implementation details (Work in progress)
 
@@ -48,4 +56,5 @@ The development of a publically available Covid test using only the microphone i
 
 - transfer lerning looks like a must
 - the cough sounds must be cropped to have the same length for training and detection!
-- idealy we collect cough data of each user before he gets covid to reduce the false positive rate of the app
+- idealy we collect cough data of each user before he gets covid to reduce the false positive rate of the app. 
+- We could also personalise training by asking the user if he is male or female, his age,... in advance or use user recordings to classefy the user and train a better personalized model.
