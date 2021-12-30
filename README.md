@@ -56,5 +56,4 @@ A simple model (not for cough data yet) was trained and imported into an Android
 
 - transfer lerning looks like a must
 - the cough sounds must be cropped to have the same length for training and detection!
-- idealy we collect cough data of each user before he gets covid to reduce the false positive rate of the app. 
-- We could also personalise training by asking the user if he is male or female, his age,... in advance or use user recordings to classefy the user and train a better personalized model.
+- 'selective Training' idealy we collect personalised cough data of the user before he gets covid to reduce the false positive rate of the app. Gender, age, ... or just use user recordings to classefy the user and train a better personalized model with trining data similar to the user.
