@@ -24,14 +24,14 @@ A simple model (not for cough data yet) was trained and imported into an Android
     * Not sure why to transformed the spectrogram into a ML spectrogram since the mel scale is only relevant to adjust the sound to human hearing, which we don't need if only the computer is "hearing" and analysing the cough sound. So why the added complexity?
   * A similar well documented instrument classification project named [Musical Genre Classification on GitHub](https://github.com/lelandroberts97/Musical_Genre_Classification) is available with an [easy to understand article](https://towardsdatascience.com/musical-genre-classification-with-convolutional-neural-networks-ff04f9601a74) explaining the concepts.
 * [CNN-Audio-Classifier-with-Keras-Tensorflow](https://github.com/adanRivas/CNN-Audio-Classifier-with-Keras-Tensorflow)
-  * transfear learning
+  * transfear learning done using the [ESC-50 dataset](https://github.com/karolpiczak/ESC-50) containing 2000 environmental audio recordings
   * mel spectograms
-  * Dataset available [here](https://osf.io/tmkud/files/) 
+  * Covid sounds dataset available [here](https://osf.io/tmkud/files/) 
   * [Wiki page](https://osf.io/tmkud/wiki/home/) 
 
 #### Available public sound Datasets:
 
-- "CNN-Audio-Classifier-with-Keras-Tensorflow"-Project: [Dataset](https://osf.io/tmkud/files/) 
+- "CNN-Audio-Classifier-with-Keras-Tensorflow"-Project: [Covid Sounds Dataset](https://osf.io/tmkud/files/) 
 
 #### Paper List:
 
