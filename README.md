@@ -26,7 +26,7 @@ A simple model (not for cough data yet) was trained and imported into an Android
 * [CNN-Audio-Classifier-with-Keras-Tensorflow](https://github.com/adanRivas/CNN-Audio-Classifier-with-Keras-Tensorflow)
   * transfear learning done using the [ESC-50 dataset](https://github.com/karolpiczak/ESC-50) containing 2000 environmental audio recordings
   * mel spectograms
-  * I dont think this is a Covid sounds dataset but sounds of coughts and snezes of diseased people [here](https://osf.io/tmkud/files/) 
+  * [Dataset of sounds of symptoms associated with respiratory sickness](https://osf.io/tmkud/files/) this is not a covid cough dataset!
   * [Wiki page](https://osf.io/tmkud/wiki/home/) 
 
 #### Available public sound Datasets:
