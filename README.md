@@ -19,10 +19,13 @@ A simple model (not for cough data yet) was trained and imported into an Android
 #### Available public code projects:
 
 * [Covid cough Classification on GitHub](https://github.com/rosikand/covid-cough-test)
-  * uses convolutional neural network (CNN) 
-  * Uses Mobile Net an image classification network to train on [ML spectograms](https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53) 
+  * convolutional neural network (CNN) 
+  * Uses Mobile Net an image classification network to train on [MEL spectograms](https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53) 
     * Not sure why to transformed the spectrogram into a ML spectrogram since the mel scale is only relevant to adjust the sound to human hearing, which we don't need if only the computer is "hearing" and analysing the cough sound. So why the added complexity?
   * A similar well documented instrument classification project named [Musical Genre Classification on GitHub](https://github.com/lelandroberts97/Musical_Genre_Classification) is available with an [easy to understand article](https://towardsdatascience.com/musical-genre-classification-with-convolutional-neural-networks-ff04f9601a74) explaining the concepts.
+* [CNN-Audio-Classifier-with-Keras-Tensorflow](https://github.com/adanRivas/CNN-Audio-Classifier-with-Keras-Tensorflow)
+  * transfear learning
+  * mel spectograms
 
 #### Available public sound Datasets:
 
