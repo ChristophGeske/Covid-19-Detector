@@ -12,18 +12,12 @@ The development of a publically available Covid test using only the microphone i
 
 #### Available public code projects:
 * [Covid cough Classification on GitHub](https://github.com/rosikand/covid-cough-test)
-  * code publicaly available (using keras, ipynb)
   * uses convolutional neural network (CNN) 
   * Uses Mobile Net an image classification network to train on [ML spectograms](https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53) 
-    * cough sound is decomposed into individual waves and frequency displayed as an image
     * Not sure why to transformed the spectrogram into a ML spectrogram since the mel scale is only relevant to adjust the sound to human hearing, which we don't need if only the computer is "hearing" and analysing the cough sound
-  * dataset not available??
-  * No transfear learning done in the beginning
-  * Similar to this instrument classification project [Musical Genre Classification on GitHub](https://github.com/lelandroberts97/Musical_Genre_Classification) with an [easy to understand explaination](https://towardsdatascience.com/musical-genre-classification-with-convolutional-neural-networks-ff04f9601a74)
+  * Similar to this well documented instrument classification project [Musical Genre Classification on GitHub](https://github.com/lelandroberts97/Musical_Genre_Classification) with an [easy to understand article](https://towardsdatascience.com/musical-genre-classification-with-convolutional-neural-networks-ff04f9601a74)
 
 #### Available public sound Datasets:
-
-The cough sounds should have the same length for training!
 
 - None found yet
 
@@ -34,6 +28,9 @@ The cough sounds should have the same length for training!
 * [Paper: Detection with Android-App (AI4COVID-19):](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7318970/) Imran, Ali, et al. "AI4COVID-19: AI enabled preliminary diagnosis for COVID-19 from cough samples via an app." Informatics in Medicine Unlocked 20 (2020): 100378.
   * App seems not available to public
   * They use "transfer leraning" to make up for missing cough sound data
+
+* [MIT Paper claiming asymptomatic detection via cough sound data](https://ieeexplore.ieee.org/document/9208795)
+  * Uses "transfer learning" on alzheimers dataset, showing improvements in accuracy
 
 #### Further relevant projecs:
 * [COVID-19 Sounds App](https://www.covid-19-sounds.org/en/) 
@@ -46,3 +43,9 @@ The cough sounds should have the same length for training!
 3. Add the functionality of running pretrained models on android following [this guide](https://medium.com/geekculture/train-ml-model-and-build-android-application-using-tensorflow-lite-keras-6bf23d07309a) and [this github repo](https://github.com/ShuklaAnuja/Python-ML---Android-Kit)
 4. Created an asset folder and add the tflite file you trained with Google Colab and downloaded in the previous steps. https://stackoverflow.com/questions/18302603/where-to-place-the-assets-folder-in-android-studio
 5. ...
+
+## Some thought for later implementation
+
+- transfer lerning looks like a must
+- the cough sounds must be cropped to have the same length for training and detection!
+- idealy we collect cough data of each user before he gets covid to reduce the false positive rate of the app
