@@ -42,7 +42,13 @@ A simple model (not for cough data yet) was trained and imported into an Android
   * They use "transfer leraning" to make up for missing cough sound data
 
 * [MIT Paper claiming asymptomatic detection via cough sound data](https://ieeexplore.ieee.org/document/9208795)
-  * Uses "transfer learning" on alzheimers dataset, showing improvements in accuracy
+  * "transfer learning" on alzheimers dataset, showing improvements in accuracy
+
+* [another MIT Paper relatet to the one above](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
+  * "transfer learning" CNN trained on regular speech dataset
+  * three types of sounds used: Cough, digits from 0 to 9, word “Ommmmmmm”, with “m” sound extending for 12 seconds
+  * 
+
 
 #### Further relevant projecs:
 
@@ -65,3 +71,4 @@ A simple model (not for cough data yet) was trained and imported into an Android
 - the cough sounds must be cropped to have the same length for training and detection!
 - 'selective Training' idealy we collect personalised cough data of the user before he gets covid to reduce the false positive rate of the app. Gender, age, ... or just use user recordings to classefy the user and train a better personalized model with trining data similar to the user.
 - Put disclaimers everywhere with the exact accuracy of the test, using graphics and simple clear sentences!
+- According to [Andrew Ng famous lecture](https://youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0) CNNs are good for image detection but RNN networks are better for sounds.
