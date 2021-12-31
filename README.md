@@ -70,7 +70,7 @@ A simple model (not for cough data yet) was trained and imported into an Android
 * transfer lerning looks like a must
 * the cough sounds must be cropped to have the same length for training and detection!
 * 'selective Training' idealy we collect personalised cough data of the user before he gets covid to reduce the false positive rate of the app. Gender, age, ... or just use user recordings to classefy the user and train a better personalized model with trining data similar to the user.
-* Put disclaimers everywhere with the exact accuracy of the test, using graphics comparing the accuracy with rapid antigen and PCR tests
+* Put disclaimers everywhere with the accuracy of the test, using graphics comparing the accuracy with rapid antigen and PCR tests for comparison
 * According to [Andrew Ng famous ML lecture](https://youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0) 
    * CNNs are good for image detection but RNNs are better for sounds
    * larger network and more data are the 2 main factors for improving the network
@@ -78,4 +78,7 @@ A simple model (not for cough data yet) was trained and imported into an Android
    * [Hyperparameters](https://youtu.be/VTE2KlfoO3Q) are Alpha (Learning rate), # of iterations of Gradient Descent, find the right number of [hidden layers](https://youtu.be/2gw5tE2ziqA), # of hidden Units (nodes per layer),  which activation function in which layer, momentum, min-batch size, regularization parameters, .... -> use trial and error and itterate to find optimum.
    * [train/dev/test set](https://youtu.be/1waHlpKiNyY) should have a ration of 60%/20%/20% when dealing with limited amount of data as in our case of covid sounds.
    * Make sure that dev and test set come from the same distribution but it is ok if training set comes from an other distribution e.g. for the sake of more data
-   * If the result has [high bias(underfitting) and/or high variance(overfitting)](https://youtu.be/C1N_PDHuJ6Q) try: bigger network (until bias shrinks), train longer (never hurts), different nural network arcitecture, more data and [regularization](https://youtu.be/NyG-7nRpsW8) (in case of high variance)  
+   * If the result has [high bias(underfitting) and/or high variance(overfitting)](https://youtu.be/C1N_PDHuJ6Q) try: bigger network (until bias shrinks), train longer (never hurts), different nural network arcitecture, more data and [regularization](https://youtu.be/NyG-7nRpsW8) (in case of high variance).  
+
+
+
