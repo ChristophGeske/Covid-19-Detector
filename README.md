@@ -29,9 +29,16 @@ A simple model (not for cough data yet) was trained and imported into an Android
   * [Dataset of sounds of symptoms associated with respiratory sickness](https://osf.io/tmkud/files/) this is not a covid cough dataset!
   * [Wiki page](https://osf.io/tmkud/wiki/home/) 
 
+* [COUGHVID: REDME and Code for data pre-processing]https://c4science.ch/diffusion/10770/
+
 #### Available public sound Datasets:
 
-- No Covid sound dataset found yet
+* [COUGHVID](https://coughvid.epfl.ch/about/) 
+  * [public dataset](https://zenodo.org/record/4498364)
+  * over 25,000 crowdsourced cough recordings  
+  * size of 1.3 GB
+  * more data may be available on request coughvid@epfl.ch
+  * 
 
 #### Paper List:
 
@@ -48,7 +55,8 @@ A simple model (not for cough data yet) was trained and imported into an Android
   * "transfer learning" CNN trained on regular speech dataset
   * three types of sounds used: Cough, digits from 0 to 9, word “Ommmmmmm”, with “m” sound extending for 12 seconds
   * 0.99 second long raw audio files used
-  * 
+
+* [COUGHVID crowdsourcing dataset, a corpus for the study of large-scale cough analysis algorithms](https://www.nature.com/articles/s41597-021-00937-4)
 
 
 #### Further relevant projecs:
