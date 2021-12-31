@@ -47,6 +47,7 @@ A simple model (not for cough data yet) was trained and imported into an Android
 * [another MIT Paper relatet to the one above](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
   * "transfer learning" CNN trained on regular speech dataset
   * three types of sounds used: Cough, digits from 0 to 9, word “Ommmmmmm”, with “m” sound extending for 12 seconds
+  * 0.99 second long raw audio files used
   * 
 
 
