@@ -29,7 +29,7 @@ A simple model (not for cough data yet) was trained and imported into an Android
   * [Dataset of sounds of symptoms associated with respiratory sickness](https://osf.io/tmkud/files/) this is not a covid cough dataset!
   * [Wiki page](https://osf.io/tmkud/wiki/home/) 
 
-* [COUGHVID: REDME and Code for data pre-processing]https://c4science.ch/diffusion/10770/
+* [COUGHVID: REDME and Code for data pre-processing](https://c4science.ch/diffusion/10770/)
 
 #### Available public sound Datasets:
 
