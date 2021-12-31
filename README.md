@@ -12,7 +12,7 @@ The development of a publically available Covid test using only the microphone i
 
 ## Current state of the project
 
-A simple model (not for cough data yet) was trained and imported into an Android app. The model used in the app is just an proof of concept and needs to be replaced with a real model able to detect cough data. The App needs to be extended to record cough sounds and put them through the model returning an positiv/negative result. 
+A simple model (not for cough data yet) was trained and imported into an Android app. The model used in the app is just an proof of concept and needs to be replaced with a  model able to detect real covid cough data. The App needs to be extended to record cough sounds and put them through the model returning an positiv/negative result. 
 
 ## Prerequesits
 
