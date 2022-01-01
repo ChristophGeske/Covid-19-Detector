@@ -11,7 +11,7 @@ Research over the last year showed that detecting Corona from cough sounds alone
 
 But the latest research has also shown, that Omicron affects the upper airways more than the lung which might be the reason for less sevarity and might result in decreased accurecy when only relying on cough data. Therefore a focous should be put on other sounds like voice and breathing as well!
 
-The development of a publically available Covid test using only the microphone in widly available Android and iOS phones could help reduce the impact the Omicron wave will have.
+The development of a publically available Covid test using only the microphone in widly available Android and iOS phones could help reduce the impact the Omicron wave by detecting infection earlier.
 
 ## Current state of the project
 
@@ -77,6 +77,10 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
 
 * [Exploring Automatic Diagnosis of COVID-19 from Crowdsourced Respiratory Sound Data](https://dl.acm.org/doi/pdf/10.1145/3394486.3412865)
   * the mobile app gathers data from single individuals up to every two days, allowing for potential tracking of disease progression
+
+* [EXPLORING AUTOMATIC COVID-19 DIAGNOSIS VIA VOICE AND SYMPTOMS FROM CROWDSOURCED DATA](https://arxiv.org/pdf/2102.05225.pdf)
+  * [covid19-sounds](https://www.covid-19-sounds.org/en/blog/neurips_dataset.html) on demand database with 55.000 (2000 positive Covid) sound samples. Ask for access here: covid19-sounds@cl.cam.ac.uk
+  * taking symptoms like loss of smell/taste into account, increases performance from 77% to 79%
 
 #### Further relevant projecs:
 
