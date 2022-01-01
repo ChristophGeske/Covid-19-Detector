@@ -69,7 +69,6 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
 * [COUGHVID crowdsourcing dataset, a corpus for the study of large-scale cough analysis algorithms](https://www.nature.com/articles/s41597-021-00937-4)
 
 * [Automatic diagnosis of COVID-19 disease using deep convolutional neural network with multi-feature channel from respiratory sound data: Cough, voice, and breath](https://www.sciencedirect.com/science/article/pii/S1110016821003859?via%3Dihub)
-  * working with COUGHVID dataset
   * DCNN
   * using voice, dry cough, and breath results in better accuracy and performance than previous models
 
