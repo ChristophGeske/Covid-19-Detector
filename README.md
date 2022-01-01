@@ -15,7 +15,7 @@ The development of a publically available Covid test using only the microphone i
 
 ## Current state of the project
 
-A simple model (not for cough data yet) was trained and imported into an Android app. The model used in the app is just an proof of concept and needs to be replaced with a  model able to detect real covid cough data. The App needs to be extended to record cough sounds and put them through the model returning an positiv/negative result. 
+A simple model (not for cough data yet) was trained and imported into an Android app. The model used in the app is just an proof of concept and needs to be replaced with a  model able to detect real covid cough data. The App needs to be extended to record cough sounds and put them through the model returning a positiv/negative result. 
 
 ## Prerequesits
 
@@ -70,9 +70,13 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
 * [COUGHVID crowdsourcing dataset, a corpus for the study of large-scale cough analysis algorithms](https://www.nature.com/articles/s41597-021-00937-4)
 
 * [Automatic diagnosis of COVID-19 disease using deep convolutional neural network with multi-feature channel from respiratory sound data: Cough, voice, and breath](https://www.sciencedirect.com/science/article/pii/S1110016821003859?via%3Dihub)
-  * Review Paper
-  * DCNN used
-  * using voice, dry cough, and breath results in better accuracy and performance than previous models
+  * good review of other Papers (see the summary table 1) with the realization that: -> "No accurate model for diagnosing COVID-19 disease symptoms exists. Implementing a deep CNN model along with multi-feature channels (De-noising Auto Encoder, GFCC, and IMFCC) leads to better results"
+  * using voice, dry cough, and breath results in better accuracy (95.45%) and performance compared to cough only (see table 4)
+  * show differnt methods for Augmentation of the data like shifting pitch adding bg noise. (see section 3.1.2.)
+  * regularization techniques like dropout (see section 4.)
+
+* [Exploring Automatic Diagnosis of COVID-19 from Crowdsourced Respiratory Sound Data](https://dl.acm.org/doi/pdf/10.1145/3394486.3412865)
+  * the mobile app gathers data from single individuals up to every two days, allowing for potential tracking of disease progression
 
 #### Further relevant projecs:
 
@@ -94,8 +98,9 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
 * transfer lerning looks like a must
 * the cough sounds must be cropped to have the same length for training and detection!
 * 'selective Training' idealy we collect personalised cough data of the user before he gets covid to reduce the false positive rate of the app. Gender, age, ... or just use user recordings to classefy the user and train a better personalized model with trining data similar to the user.
-* Put disclaimers everywhere with the accuracy of the test, using graphics comparing the accuracy with rapid antigen and PCR tests for comparison
-* Output should include the confidence of the model and the information that the disclaimer that the results can be wrong even if confidence is high
+* Put disclaimers with the accuracy of the test, using graphics comparing the accuracy with rapid antigen and PCR tests for comparison
+* Inform user on what sound is best for detection and dicurrage users with bg noise or other respiratory deseases to use the app since its not clear if it works well for them.
+* Output should include the confidence of the model and the information that the disclaimer that the results can be wrong even if confidence is high. Also It should be very simple by presenting a probability of having covid and giving the user the option to see more detailed data of his recording analysis.
 * A combination of cloud based analysis when an internet connection is available and a on device analysis tool for offline use would be ideal.
 * According to [Andrew Ng famous ML lecture](https://youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0) 
    * CNNs are good for image detection but RNNs are better for sounds
