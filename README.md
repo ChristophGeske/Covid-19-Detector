@@ -33,6 +33,7 @@ A simple model (not for cough data yet) was trained and imported into an Android
   * [Wiki page](https://osf.io/tmkud/wiki/home/) 
 
 * [COUGHVID: REDME and Code for data pre-processing](https://c4science.ch/diffusion/10770/)
+  * 67.7% of COVID-19 patients exhibit a “dry cough” 
 
 
 
@@ -77,9 +78,11 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
 
 * [Exploring Automatic Diagnosis of COVID-19 from Crowdsourced Respiratory Sound Data](https://dl.acm.org/doi/pdf/10.1145/3394486.3412865)
   * the mobile app gathers data from single individuals up to every two days, allowing for potential tracking of disease progression
+  * data release only with one-to-one legal agreements. See [website](www.covid-19-sounds.org)
+  * because of the limited data size they used shallow (e.g. Logistic Regression) instead of deep classefiers (e.g. CNN, RNN) 
 
 * [EXPLORING AUTOMATIC COVID-19 DIAGNOSIS VIA VOICE AND SYMPTOMS FROM CROWDSOURCED DATA](https://arxiv.org/pdf/2102.05225.pdf)
-  * [covid19-sounds](https://www.covid-19-sounds.org/en/blog/neurips_dataset.html) on demand database with 55.000 (2000 positive Covid) sound samples. Ask for access here: covid19-sounds@cl.cam.ac.uk
+  * [covid19-sounds](https://www.covid-19-sounds.org/en/blog/neurips_dataset.html) on demand database with 55.000 (2000 positive Covid) sound samples. Ask for access here: covid19-sounds@cl.cam.ac.uk and set up a sharing agreements for the data
   * taking symptoms like loss of smell/taste into account, increases performance from 77% to 79% 
 
 ## Implementation details (Work in progress)
