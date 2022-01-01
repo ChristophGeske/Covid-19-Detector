@@ -8,6 +8,8 @@ However with a doubling of cases every 3.5 days it is hardly imaginable how dema
 
 Research over the last year showed that detecting Corona from cough sounds alone is possible, but so far no app making use of this technology was made available to the public. 
 
+But the latest research has also shown, that Omicron affects the upper airways more than the lung which might result in decreased accurecy when only using cough data and therefore a focous should be put on other sounds like voice and breathing as well!
+
 The development of a publically available Covid test using only the microphone in widly available Android and iOS phones could help reduce the impact the Omicron wave will have.
 
 ## Current state of the project
@@ -40,7 +42,6 @@ A simple model (not for cough data yet) was trained and imported into an Android
   * over 25,000 crowdsourced cough recordings  
   * size of 1.3 GB
   * more data may be available on request coughvid@epfl.ch
-  * 
 
 #### Paper List:
 
@@ -68,7 +69,8 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
 
 * [Automatic diagnosis of COVID-19 disease using deep convolutional neural network with multi-feature channel from respiratory sound data: Cough, voice, and breath](https://www.sciencedirect.com/science/article/pii/S1110016821003859?via%3Dihub)
   * working with COUGHVID dataset
-  * 
+  * DCNN
+  * using voice, dry cough, and breath results in better accuracy and performance than previous models
 
 #### Further relevant projecs:
 
