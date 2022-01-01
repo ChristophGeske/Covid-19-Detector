@@ -2,13 +2,14 @@
 
 ## Why is this relevant?
 
-With the emergence of the Omicron variant we will soon (mid January 2022 peak in 15.01.2022) see a spike in cases including increased hospitalizations and a need for rapid antigen tests, according to the [latest models](https://youtu.be/rRIiJcqyIpY). Also latest studies show that current tests are less accurate in detecting Omicron and the recommendation ist to use 2 tests instead of one which further increases demand for tests.
+With the emergence of the Omicron variant we will soon (mid January 2022 peak in 15.01.2022) see a spike in cases including increased hospitalizations and a need for rapid antigen tests, according to the [latest models](https://youtu.be/rRIiJcqyIpY). 
+New studies also show that current tests are less accurate in detecting Omicron and the recommendation ist to use 2 tests instead of one which further increases demand for tests.
 
 However with a doubling of cases every 3.5 days it is hardly imaginable how demand for tests can keep up.
 
 Research over the last year showed that detecting Corona from cough sounds alone is possible, but so far no app making use of this technology was made available to the public. 
 
-But the latest research has also shown, that Omicron affects the upper airways more than the lung which might result in decreased accurecy when only using cough data and therefore a focous should be put on other sounds like voice and breathing as well!
+But the latest research has also shown, that Omicron affects the upper airways more than the lung which might be the reason for less sevarity and might result in decreased accurecy when only relying on cough data. Therefore a focous should be put on other sounds like voice and breathing as well!
 
 The development of a publically available Covid test using only the microphone in widly available Android and iOS phones could help reduce the impact the Omicron wave will have.
 
