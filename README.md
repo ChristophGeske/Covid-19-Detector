@@ -1,4 +1,4 @@
-# Covid-19-Cough-Rapid-Test for Android
+# Corona-Cough-Rapid-Test for Android
 
 ## Why is this relevant?
 
