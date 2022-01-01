@@ -31,6 +31,8 @@ A simple model (not for cough data yet) was trained and imported into an Android
 
 * [COUGHVID: REDME and Code for data pre-processing](https://c4science.ch/diffusion/10770/)
 
+
+
 #### Available public sound Datasets:
 
 * [COUGHVID](https://coughvid.epfl.ch/about/) 
@@ -42,22 +44,31 @@ A simple model (not for cough data yet) was trained and imported into an Android
 
 #### Paper List:
 
-* [Review Paper:](https://arxiv.org/ftp/arxiv/papers/2112/2112.07285.pdf) Lella, Kranthi Kumar, and Alphonse Pja. "Automatic COVID-19 disease diagnosis using 1D convolutional neural network and augmentation with human respiratory sound based on parameters: cough, breath, and voice." AIMS Public Health 8.2 (2021): 240.
+* [Automatic COVID-19 disease diagnosis using 1D convolutional neural
+network and augmentation with human respiratory sound based on
+parameters: cough, breath, and voice](https://arxiv.org/ftp/arxiv/papers/2112/2112.07285.pdf) 
+  * Review Paper
 
-* [Paper: Detection with Android-App (AI4COVID-19):](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7318970/) Imran, Ali, et al. "AI4COVID-19: AI enabled preliminary diagnosis for COVID-19 from cough samples via an app." Informatics in Medicine Unlocked 20 (2020): 100378.
-  * App seems not available to public
+* [AI4COVID-19: AI enabled preliminary diagnosis for COVID-19 from cough samples via an app](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7318970/)
+  * Android-App (AI4COVID-19) seems not available to public
   * They use "transfer leraning" to make up for missing cough sound data
 
-* [MIT Paper claiming asymptomatic detection via cough sound data](https://ieeexplore.ieee.org/document/9208795)
+* [COVID-19 Artificial Intelligence Diagnosis Using Only Cough Recordings](https://ieeexplore.ieee.org/document/9208795)
+  * asymptomatic detection
   * "transfer learning" on alzheimers dataset, showing improvements in accuracy
 
-* [another MIT Paper relatet to the one above](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
+* [“Hi Sigma, do I have the Coronavirus?”: Call for a New Artificial Intelligence
+Approach to Support Health Care Professionals Dealing With The COVID-19
+Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
   * "transfer learning" CNN trained on regular speech dataset
   * three types of sounds used: Cough, digits from 0 to 9, word “Ommmmmmm”, with “m” sound extending for 12 seconds
   * 0.99 second long raw audio files used
 
 * [COUGHVID crowdsourcing dataset, a corpus for the study of large-scale cough analysis algorithms](https://www.nature.com/articles/s41597-021-00937-4)
 
+* [Automatic diagnosis of COVID-19 disease using deep convolutional neural network with multi-feature channel from respiratory sound data: Cough, voice, and breath](https://www.sciencedirect.com/science/article/pii/S1110016821003859?via%3Dihub)
+  * working with COUGHVID dataset
+  * 
 
 #### Further relevant projecs:
 
