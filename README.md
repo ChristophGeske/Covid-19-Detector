@@ -80,14 +80,7 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
 
 * [EXPLORING AUTOMATIC COVID-19 DIAGNOSIS VIA VOICE AND SYMPTOMS FROM CROWDSOURCED DATA](https://arxiv.org/pdf/2102.05225.pdf)
   * [covid19-sounds](https://www.covid-19-sounds.org/en/blog/neurips_dataset.html) on demand database with 55.000 (2000 positive Covid) sound samples. Ask for access here: covid19-sounds@cl.cam.ac.uk
-  * taking symptoms like loss of smell/taste into account, increases performance from 77% to 79%
-
-#### Further relevant projecs:
-
-* [COVID-19 Sounds App](https://www.covid-19-sounds.org/en/) maybe as a source for more trainings data.
-  * Sounds, Spectrograms and MEL-Spectrograms avaialable
-  * MEL-Spectrograms could be used directly, reducing complexity and the steps needed for training
-  
+  * taking symptoms like loss of smell/taste into account, increases performance from 77% to 79% 
 
 ## Implementation details (Work in progress)
 
