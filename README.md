@@ -53,6 +53,7 @@ parameters: cough, breath, and voice](https://arxiv.org/ftp/arxiv/papers/2112/21
 
 * [AI4COVID-19: AI enabled preliminary diagnosis for COVID-19 from cough samples via an app](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7318970/)
   * Android-App (AI4COVID-19) seems not available to public
+  * App sends data to the cloud for analysis, which has the adventage of being able to keep the model up to date for all users. But the disadventage of requiring an internet connection.
   * They use "transfer leraning" to make up for missing cough sound data
 
 * [COVID-19 Artificial Intelligence Diagnosis Using Only Cough Recordings](https://ieeexplore.ieee.org/document/9208795)
@@ -69,7 +70,8 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
 * [COUGHVID crowdsourcing dataset, a corpus for the study of large-scale cough analysis algorithms](https://www.nature.com/articles/s41597-021-00937-4)
 
 * [Automatic diagnosis of COVID-19 disease using deep convolutional neural network with multi-feature channel from respiratory sound data: Cough, voice, and breath](https://www.sciencedirect.com/science/article/pii/S1110016821003859?via%3Dihub)
-  * DCNN
+  * Review Paper
+  * DCNN used
   * using voice, dry cough, and breath results in better accuracy and performance than previous models
 
 #### Further relevant projecs:
@@ -94,6 +96,7 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
 * 'selective Training' idealy we collect personalised cough data of the user before he gets covid to reduce the false positive rate of the app. Gender, age, ... or just use user recordings to classefy the user and train a better personalized model with trining data similar to the user.
 * Put disclaimers everywhere with the accuracy of the test, using graphics comparing the accuracy with rapid antigen and PCR tests for comparison
 * Output should include the confidence of the model and the information that the disclaimer that the results can be wrong even if confidence is high
+* A combination of cloud based analysis when an internet connection is available and a on device analysis tool for offline use would be ideal.
 * According to [Andrew Ng famous ML lecture](https://youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0) 
    * CNNs are good for image detection but RNNs are better for sounds
    * larger network and more data are the 2 main factors for improving the network
