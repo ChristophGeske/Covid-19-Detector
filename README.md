@@ -100,6 +100,7 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
 * 'selective Training' idealy we collect personalised cough data of the user before he gets covid to reduce the false positive rate of the app. Gender, age, ... or just use user recordings to classefy the user and train a better personalized model with trining data similar to the user.
 * Put disclaimers with the accuracy of the test, using graphics comparing the accuracy with rapid antigen and PCR tests for comparison
 * Inform user on what sound is best for detection and dicurrage users with bg noise or other respiratory deseases to use the app since its not clear if it works well for them.
+* Avoid Text as much as possible and only use GIF's/Animations so the test can be used by everyone without a language barrier.
 * Output should include the confidence of the model and the information that the disclaimer that the results can be wrong even if confidence is high. Also It should be very simple by presenting a probability of having covid and giving the user the option to see more detailed data of his recording analysis.
 * A combination of cloud based analysis when an internet connection is available and a on device analysis tool for offline use would be ideal.
 * According to [Andrew Ng famous ML lecture](https://youtube.com/playlist?list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0) 
@@ -110,7 +111,7 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
    * [train/dev/test set](https://youtu.be/1waHlpKiNyY) should have a ration of 60%/20%/20% when dealing with limited amount of data as in our case of covid sounds.
    * Make sure that dev and test set come from the same distribution but it is ok if training set comes from an other distribution e.g. for the sake of more data
    * If the result has [high bias(underfitting) and/or high variance(overfitting)](https://youtu.be/C1N_PDHuJ6Q) try: bigger network (until bias shrinks), train longer (never hurts), different nural network arcitecture, more data and [regularization](https://youtu.be/NyG-7nRpsW8) (in case of high variance).  
-   * Dimensionality reduction like [Principal Component Analysis (PCA)](https://www.youtube.com/watch?v=TJdH6rPA-TI) to prepare the data and get better training results
+   * Dimensionality reduction like [Principal Component Analysis (PCA)](https://www.youtube.com/watch?v=TJdH6rPA-TI) to prepare the data and get better training results. Remember to standardize the data first to avoide vastly different variance between the dimensions. Variance should be 1 for all dimensions. Data Cutoff normaly set so that only the PCA's are used, that explain 99% of the differences.
    * 
 
 
