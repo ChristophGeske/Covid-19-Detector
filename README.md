@@ -1,4 +1,4 @@
-# Corona-Cough-Rapid-Test for Android
+# Covid Detector using Cough and Sound Recordings - Android App
 
 ## Why is this relevant?
 
