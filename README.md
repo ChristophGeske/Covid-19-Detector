@@ -1,4 +1,4 @@
-# Covid Detector using Cough and Sound Recordings - Android App
+# Covid-19-Detector using Cough and Sound Recordings - Android App
 
 ## Why is this relevant?
 
