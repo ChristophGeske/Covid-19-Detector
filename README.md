@@ -113,6 +113,7 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
    * If the result has [high bias(underfitting) and/or high variance(overfitting)](https://youtu.be/C1N_PDHuJ6Q) try: bigger network (until bias shrinks), train longer (never hurts), different nural network arcitecture, more data and [regularization](https://youtu.be/NyG-7nRpsW8) (in case of high variance).  
 * Data Preperation has 3 main steps:
   * [Cleaning data](https://youtu.be/zVImIQuqjQ0) to remove missing data, noise, ...
+  * [Data Transformation and normalization](https://youtu.be/ms6EV1pG3tc): Normaly we standardize so that the standarddiviation is 1. Attention! If you later add new data the normalization and standardization must be the same as for the previous data!
   * Dimensionality reduction like [Principal Component Analysis (PCA)](https://www.youtube.com/watch?v=TJdH6rPA-TI) to prepare the data and get better training results. Remember to standardize the data first to avoide vastly different variance between the dimensions. Variance should be 1 for all dimensions. Data Cutoff normaly set so that only the PCA's are used, that explain 99% of the differences.
    * 
 
