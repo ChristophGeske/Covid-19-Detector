@@ -111,7 +111,9 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
    * [train/dev/test set](https://youtu.be/1waHlpKiNyY) should have a ration of 60%/20%/20% when dealing with limited amount of data as in our case of covid sounds.
    * Make sure that dev and test set come from the same distribution but it is ok if training set comes from an other distribution e.g. for the sake of more data
    * If the result has [high bias(underfitting) and/or high variance(overfitting)](https://youtu.be/C1N_PDHuJ6Q) try: bigger network (until bias shrinks), train longer (never hurts), different nural network arcitecture, more data and [regularization](https://youtu.be/NyG-7nRpsW8) (in case of high variance).  
-   * Dimensionality reduction like [Principal Component Analysis (PCA)](https://www.youtube.com/watch?v=TJdH6rPA-TI) to prepare the data and get better training results. Remember to standardize the data first to avoide vastly different variance between the dimensions. Variance should be 1 for all dimensions. Data Cutoff normaly set so that only the PCA's are used, that explain 99% of the differences.
+* Data Preperation has 3 main steps:
+  * [Cleaning data](https://youtu.be/zVImIQuqjQ0) to remove missing data, noise, ...
+  * Dimensionality reduction like [Principal Component Analysis (PCA)](https://www.youtube.com/watch?v=TJdH6rPA-TI) to prepare the data and get better training results. Remember to standardize the data first to avoide vastly different variance between the dimensions. Variance should be 1 for all dimensions. Data Cutoff normaly set so that only the PCA's are used, that explain 99% of the differences.
    * 
 
 
