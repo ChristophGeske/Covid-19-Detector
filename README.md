@@ -114,7 +114,8 @@ Pandemic](https://arxiv.org/ftp/arxiv/papers/2004/2004.06510.pdf)
 * Data Preperation has 3 main steps:
   * [Cleaning data](https://youtu.be/zVImIQuqjQ0) to remove missing data, noise, ...
   * [Data Transformation and normalization](https://youtu.be/ms6EV1pG3tc): Normaly we standardize so that the standarddiviation is 1. Attention! If you later add new data the normalization and standardization must be the same as for the previous data!
-  * Dimensionality reduction like [Principal Component Analysis (PCA)](https://www.youtube.com/watch?v=TJdH6rPA-TI) to prepare the data and get better training results. Remember to standardize the data first to avoide vastly different variance between the dimensions. Variance should be 1 for all dimensions. Data Cutoff normaly set so that only the PCA's are used, that explain 99% of the differences.
+  * [Data Reduction](https://youtu.be/8k56bvhXw4s): remove duplicates, remove data you dont need for your analysis, corrolation analysis (removes data which are so simmilar that removing them doesnt change the result we want), forward-backward-attribut selection (train ML model with and without the data ans check if prediction quality is affected. If it has no affect the data can be removed), forward-attribut selection(start with one attribute and add more until learning doesnt get better)
+    * To make a more informet decision on what to remove, use [Principal Component Analysis (PCA)](https://www.youtube.com/watch?v=TJdH6rPA-TI). Remember to standardize the data first to avoide vastly different variance between the dimensions. Variance should be 1 for all dimensions. Data Cutoff normaly set so that only the PCA's are used, that explain 99% of the differences.
    * 
 
 
