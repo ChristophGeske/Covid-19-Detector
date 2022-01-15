@@ -21,7 +21,7 @@ A simple model (not for cough data yet) was trained and imported into an Android
 
 #### Available public code projects:
 
-* [Covid cough Classification on GitHub](https://github.com/rosikand/covid-cough-test)
+* Covid cough Classification [on GitHub](https://github.com/rosikand/covid-cough-test)
   * convolutional neural network (CNN) 
   * Uses [MobileNet](https://keras.io/api/applications/mobilenet/) an already trained image classification network for [transfer learning](https://keras.io/guides/transfer_learning/)
   * is trained on [MEL spectograms](https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53) 
@@ -33,7 +33,7 @@ A simple model (not for cough data yet) was trained and imported into an Android
   * [Dataset of sounds of symptoms associated with respiratory sickness](https://osf.io/tmkud/files/) this is not a covid cough dataset!
   * [Wiki page](https://osf.io/tmkud/wiki/home/) 
 
-* [COUGHVID: REDME and Code for data pre-processing](https://c4science.ch/diffusion/10770/)
+* COUGHVID: [REDME and Code](https://c4science.ch/diffusion/10770/) for data pre-processing]
   * 67.7% of COVID-19 patients exhibit a “dry cough” 
 
 
