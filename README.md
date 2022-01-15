@@ -23,7 +23,8 @@ A simple model (not for cough data yet) was trained and imported into an Android
 
 * Covid cough Classification [on GitHub](https://github.com/rosikand/covid-cough-test)
   * convolutional neural network (CNN) 
-  * Uses [MobileNet](https://keras.io/api/applications/mobilenet/) an already trained image classification network for [transfer learning](https://keras.io/guides/transfer_learning/)
+  * Uses [MobileNet](https://keras.io/api/applications/mobilenet/) an already trained image classification network here used for [transfer learning](https://keras.io/guides/transfer_learning/)
+    * I guess using a network trained on spectrograms instead of images would be better for transfer learning. TODO: Find such a network and compare results
   * is trained on [MEL spectograms](https://medium.com/analytics-vidhya/understanding-the-mel-spectrogram-fca2afa2ce53) 
     * Not sure why to transform the spectrogram into a ML spectrograms since the mel scale is only relevant to adjust the sound to human hearing, which we don't need if only the computer is "hearing" and analysing the cough sound.
   * A similar well documented instrument classification project named [Musical Genre Classification on GitHub](https://github.com/lelandroberts97/Musical_Genre_Classification) is available with an [easy to understand article](https://towardsdatascience.com/musical-genre-classification-with-convolutional-neural-networks-ff04f9601a74) explaining the concept.
