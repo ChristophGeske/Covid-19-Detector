@@ -1,5 +1,11 @@
 # Covid-19-Detector using Cough and Sound Recordings - Android App
 
+## Current state of the project (STOPPED DEVELOPMENT)
+
+This is more of an idea collection. There is no functioning app hear but maybe a starting point for others.
+
+A simple model (not for cough data yet) was trained and imported into an Android app. The model used in the app is just an proof of concept and needs to be replaced with a  model able to detect real covid cough data. The App needs to be extended to record cough sounds and put them through the model returning a positiv/negative result. 
+
 ## Why is this relevant?
 
 With the emergence of the Omicron variant we will soon (mid January 2022 peak in 15.01.2022) see a spike in cases including increased hospitalizations and a need for rapid antigen tests, according to the [latest models](https://youtu.be/rRIiJcqyIpY). 
@@ -12,10 +18,6 @@ Research over the last year showed that detecting Corona from cough sounds alone
 But the latest research has also shown, that Omicron affects the upper airways more than the lung which might be the reason for less sevarity and might result in decreased accurecy when only relying on cough data. Therefore a focous should be put on other sounds like voice and breathing as well!
 
 The development of a publically available Covid test using only the microphone in widly available Android and iOS phones could help reduce the impact the Omicron wave by detecting infection earlier.
-
-## Current state of the project
-
-A simple model (not for cough data yet) was trained and imported into an Android app. The model used in the app is just an proof of concept and needs to be replaced with a  model able to detect real covid cough data. The App needs to be extended to record cough sounds and put them through the model returning a positiv/negative result. 
 
 ## Prerequesits
 
